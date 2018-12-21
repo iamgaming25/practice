@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WEB - 01</title>
+    <link rel = "stylesheet" href = "Pstyle.css">
+    <script src = "Pjscript.js"></script>
+</head>
+<body>
+    <input type="button" value="night" onclick="nighthandler(this)">
+    <h1 id = "TopTitle"><a href = "PIndex.html">WEB - 01</a></h1>
+    <div id = "Article">
+    <ol id = "MainList">
+        <script>
+            var i = 0;
+            while(i < MainList.length) {
+                document.write('<li><a href = "P'+MainList[i]+'.html">'+MainList[i]+'</a></li>');
+                i = i + 1;
+            }
+        </script>
+    </ol>
+    <div id = "MainText">
+        <h2 id = "MainTitle">CSS</h2>
+        <p>
+            <strong><a href = "https://en.wikipedia.org/wiki/HTML">The World Wide Web (WWW)</a></strong>, also called the Web, is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN near Geneva, Switzerland.[2][3] The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991. 
+        </p>
+    </div>
+    </div>
+</body>
+</html>
